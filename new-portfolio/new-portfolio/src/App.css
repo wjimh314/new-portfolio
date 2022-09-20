@@ -93,3 +93,13 @@ img{
 .navbar-toggler-icon {
   background-color: #61dafb;
 }
+
+
+/*--aboutme---*/
+.profile-img{
+  width:16rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  border:10px solid 
+  
+}
