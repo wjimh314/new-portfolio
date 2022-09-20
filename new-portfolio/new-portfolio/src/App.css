@@ -55,11 +55,41 @@ nav.a.nav-link{
   cursor:pointer;
 }
 .navbar-nav > li >  a {
-  color:white;
+  color:rgb(22, 22, 22);
+  background-color: #61dafb;
 }
 /*hover*/
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.focus {
   border-top: 0.1875rem solid var(orange);
 
+}
+
+/*--navbar---*/
+.header-wrapper{
+  position:relative;
+  background-color: #61dafb;
+  background-size:cover;
+  height:25vh
+  
+}
+.main-info{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  text-align:center
+}
+.main-info h1 {
+  color:white
+}
+
+
+img{
+  width:300px;
+  height:300px;
+}
+
+.navbar-toggler-icon {
+  background-color: #61dafb;
 }
