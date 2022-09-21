@@ -10,45 +10,45 @@ export const Portfolio = () => {
 	return (
 		<div className="portfolio-wrapper">
 			<div className="container">
-				<h1 className="text-uppercase text-center py-5"> portfolio </h1>
+				<h1 className="text-uppercase text-center py-5"> portfolio </h1>{" "}
 				<div className="image-box-wrapper row justify-content-center">
 					<div className="portfolio-image-box">
 						<img className="portfolio-image" src={foodFREQs} alt="foodFREQs" />
+						<div className="overflow"> </div>{" "}
 					</div>
-
 					<div className="portfolio-image-box">
 						<img
 							className="portfolio-image"
 							src={gitThatCurrency}
 							alt="gitThatCurrency"
 						/>
+						<div className="overflow"> </div>{" "}
 					</div>
-
 					<div className="portfolio-image-box">
 						<img className="portfolio-image" src={JATE} alt="JATE" />
 					</div>
-
 					<div className="portfolio-image-box">
 						<img
 							className="portfolio-image"
 							src={javascriptTest}
 							alt="javascriptTest"
 						/>
+						<div className="overflow"> </div>{" "}
 					</div>
-
 					<div className="portfolio-image-box">
 						<img className="portfolio-image" src={noteTaker} alt="noteTaker" />
+						<div className="overflow"> </div>{" "}
 					</div>
-
 					<div className="portfolio-image-box">
 						<img
 							className="portfolio-image"
 							src={passwordGenerator}
 							alt="passwordGenerator"
 						/>
-					</div>
-				</div>
-			</div>
+						<div className="overflow"> </div>{" "}
+					</div>{" "}
+				</div>{" "}
+			</div>{" "}
 		</div>
 	);
 };

@@ -118,6 +118,17 @@ img{
    .portfolio-image-box {
     position: relative;
     margin: 1rem;
-    
+    }
+    /*--overflow---*/
 
-   }
+    .overflow {
+      position:absolute;
+      opacity: 0;
+      background:black;
+      width: 15rem;
+      height: 8rem;
+      top: 0;
+      border:1px solid black;
+      cursor: pointer;
+      
+    }
