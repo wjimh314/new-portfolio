@@ -97,9 +97,27 @@ img{
 
 /*--aboutme---*/
 .profile-img{
-  width:16rem;
+  width:500px;
+  height:500px;
   border-radius: 50%;
+
   padding: 0.2rem;
   border:10px solid 
-  
-}
+  }
+
+  /*--portfolio---*/
+  .portfolio-wrapper {
+    background: gray;
+    padding: 3 rem 0;
+   }
+   .portfolio-image {
+    height:16 rem;
+   border:1px solid black;
+   padding: 0 0.5rem;
+   }
+   .portfolio-image-box {
+    position: relative;
+    margin: 1rem;
+    
+
+   }
