@@ -10,13 +10,12 @@ export const Portfolio = () => {
 	return (
 		<div className="portfolio-wrapper">
 			<div className="container">
-				<h1 className="text-uppercase text-center py-5"> portfolio </h1>{" "}
+				<h1 className="text-uppercase text-center py-5"> portfolio </h1>
 				<div className="image-box-wrapper row justify-content-center">
 					<div className="portfolio-image-box">
 						<img className="portfolio-image" src={foodFREQs} alt="foodFREQs" />
 					</div>
-				</div>
-				<div className="image-box-wrapper row justify-content-center">
+
 					<div className="portfolio-image-box">
 						<img
 							className="portfolio-image"
@@ -24,13 +23,11 @@ export const Portfolio = () => {
 							alt="gitThatCurrency"
 						/>
 					</div>
-				</div>{" "}
-				<div className="image-box-wrapper row justify-content-center">
+
 					<div className="portfolio-image-box">
 						<img className="portfolio-image" src={JATE} alt="JATE" />
 					</div>
-				</div>
-				<div className="image-box-wrapper row justify-content-center">
+
 					<div className="portfolio-image-box">
 						<img
 							className="portfolio-image"
@@ -38,13 +35,11 @@ export const Portfolio = () => {
 							alt="javascriptTest"
 						/>
 					</div>
-				</div>
-				<div className="image-box-wrapper row justify-content-center">
+
 					<div className="portfolio-image-box">
 						<img className="portfolio-image" src={noteTaker} alt="noteTaker" />
 					</div>
-				</div>{" "}
-				<div className="image-box-wrapper row justify-content-center">
+
 					<div className="portfolio-image-box">
 						<img
 							className="portfolio-image"
@@ -52,9 +47,9 @@ export const Portfolio = () => {
 							alt="passwordGenerator"
 						/>
 					</div>
-				</div>{" "}
-			</div>{" "}
+				</div>
+			</div>
 		</div>
-	);
-};
+	)
+}
 export default Portfolio
