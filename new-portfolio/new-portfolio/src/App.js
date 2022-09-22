@@ -5,6 +5,7 @@ import Navigation from "./components/Naviagation";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio.js";
+import Resume from "./components/Resume.js"
 function App() {
   return (
     
@@ -13,6 +14,7 @@ function App() {
     <Header/>
     <AboutMe/>
     <Portfolio/>
+    <Resume/>
 </>
   );
 }
