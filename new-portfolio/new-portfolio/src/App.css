@@ -56,19 +56,16 @@ nav.a.nav-link{
 }
 .navbar-nav > li >  a {
   color:rgb(22, 22, 22);
-  background-color: #61dafb;
+  background-color: #2e7285;
 }
-/*hover*/
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.focus {
-  border-top: 0.1875rem solid var(orange);
 
-}
+
 
 /*--navbar---*/
 .header-wrapper{
   position:relative;
-  background-color: #61dafb;
+  background-color: #2e7285;
   background-size:cover;
   height:25vh
   
@@ -78,11 +75,14 @@ nav.a.nav-link{
   flex-direction: column;
   justify-content: center;
   align-items:center;
-  text-align:center
+  text-align:center;
+  
 }
 .main-info h1 {
   color:white
 }
+
+
 
 
 img{
@@ -90,15 +90,12 @@ img{
   height:300px;
 }
 
-.navbar-toggler-icon {
-  background-color: #61dafb;
-}
 
 
 /*--aboutme---*/
 .profile-img{
-  width:100px;
-  height:100px;
+  width:325px;
+  height:325px;
   border-radius: 50%;
 
   padding: 0.2rem;
@@ -112,7 +109,7 @@ img{
   
   /*--portfolio---*/
   .portfolio-wrapper {
-    background: gray;
+    background: #2e7285;
     padding: 3rem 0;
    }
    .portfolio-image {
@@ -148,3 +145,16 @@ transition: .3s ease-in-out;
       width:45rem;
       padding:0 0.5rem;
     }
+
+    /*---CONTACT---*/
+
+
+    .myForm{
+      background:#2e7285;
+      font-size: 25px;
+    }
+   .github{
+    font-weight: bolder;
+    color:white;
+    font-size: larger;
+   }

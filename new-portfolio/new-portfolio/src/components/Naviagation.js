@@ -9,7 +9,7 @@ const Naviagation = () => {
   
   <a className="navbar-brand" href="#"></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon navbar-light bg-dark "></span>
+    <span className="navbar-toggler-icon navbar-light bg-light "></span>
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -21,7 +21,7 @@ const Naviagation = () => {
       <Link smooth={true} to="about" offset={-110} className="nav-link" href="#">about me</Link>
       </li>
       <li className="nav-item">
-      <Link smooth={true} to="portfolio" offset={-110} className="nav-link" href="#">portfolio</Link>      </li>
+      <Link smooth={true} to="Portfolio" offset={-110} className="nav-link" href="#">Portfolio</Link>      </li>
       
       <li className="nav-item">
       <Link smooth={true} to="Resume" offset={-110} className="nav-link" >Resume</Link>      </li>

@@ -7,7 +7,7 @@ const Header = () => {
     <div className ="header-wrapper">
       <div class="main-info"  >
       <h1>William J. Hart</h1>
-
+      <a  class= "github" href="https://github.com/wjimh314">GitHub</a>
       </div>
     </div>
   )
