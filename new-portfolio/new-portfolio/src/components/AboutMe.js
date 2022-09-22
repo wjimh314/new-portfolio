@@ -3,14 +3,14 @@ import Me from "../me.jpg";
 
 const AboutMe = () => {
 	return (
-		<div className="container py-5">
+		<div id= "about me"className="container py-5">
 			<div className="row">
 				<div className="col-lg-6 col-xm-12">
                 <div className="photo-wrap">
 				<img  className="profile-img"src={Me} alt="me" />
                        
 					</div>
-				</div>
+				</div>       
 				<div className="col-lg-6 col-xm-12">
 					<h1 className="about-heading">About me</h1>
 					<p>

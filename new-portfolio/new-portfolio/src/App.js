@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio.js";
 import Resume from "./components/Resume.js"
+import Contact from "./components/Contact.js"
 function App() {
   return (
     
@@ -15,6 +16,7 @@ function App() {
     <AboutMe/>
     <Portfolio/>
     <Resume/>
+    <Contact/>
 </>
   );
 }
