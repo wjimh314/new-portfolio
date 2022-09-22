@@ -8,6 +8,7 @@ const Header = () => {
       <div class="main-info"  >
       <h1>William J. Hart</h1>
       <a  class= "github" href="https://github.com/wjimh314">GitHub</a>
+      <a  class= "linkedin" href="https://www.linkedin.com/in/william-hart-62a120241/">linkedin</a>
       </div>
     </div>
   )
